@@ -4,7 +4,7 @@ setup(
     name='agensgraph',
     version='1.0.0',
     description='Psycopg2 type extension module for AgensGraph',
-    install_requires=['psycopg2>=2.5.4'],
+    install_requires=['psycopg2-binary>=2.8.6'],
 
     packages=find_packages(exclude=['tests']),
     test_suite = "tests",
